@@ -9,7 +9,9 @@ h1, h2, h3, h4, h5, h6,
   font-family: 'Oswald', Arial, Helvetica, sans-serif !important;
 }
 
-/* Meta & UI = Roboto Flex */
-.nav, .navbar, .badge, .btn, .meta, .post-meta, .pagination {
-  font-family: 'Roboto Flex', system-ui, sans-serif !important;
+/* Meta & UI = Roboto */
+.nav, .navbar, .navbar a, .nav-link,
+.badge, .btn, .meta, .post-meta,
+.pagination, .breadcrumb, input, button, select, textarea {
+  font-family: 'Roboto', system-ui, sans-serif !important;
 }

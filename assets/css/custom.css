@@ -1,0 +1,15 @@
+/* Body-Text = Didact Gothic */
+body {
+  font-family: 'Didact Gothic', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+/* Überschriften = Oswald */
+h1, h2, h3, h4, h5, h6,
+.navbar-brand, .site-title {
+  font-family: 'Oswald', Arial, Helvetica, sans-serif;
+}
+
+/* Meta & UI = Inter (Menüs, Badges, Buttons, kleine Infos) */
+.nav, .navbar, .badge, .btn, .meta, .post-meta, .pagination {
+  font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}

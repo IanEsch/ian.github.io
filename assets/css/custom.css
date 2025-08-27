@@ -9,9 +9,26 @@ h1, h2, h3, h4, h5, h6,
   font-family: 'Oswald', Arial, Helvetica, sans-serif !important;
 }
 
-/* Meta & UI = Roboto */
-.nav, .navbar, .navbar a, .nav-link,
-.badge, .btn, .meta, .post-meta,
-.pagination, .breadcrumb, input, button, select, textarea {
-  font-family: 'Roboto', system-ui, sans-serif !important;
+/* Meta & UI = Roboto Flex */
+.nav, .navbar, .badge, .btn, .meta, .post-meta, .pagination {
+  font-family: 'Roboto Flex', system-ui, sans-serif !important;
+}
+/* Meta-Zeilen (grau unterlegte Infos, kleine Texte) = Roboto Flex */
+.post-meta,
+.post-meta a,
+.post-top-meta,
+.post-top-meta a,
+.post-category,
+.post-category a,
+.text-muted,
+small,
+time,
+.byline,
+.badge-category,
+.article-post .post-meta,
+.list-featured a,
+.list-featured .meta,
+.list-featured .post-meta {
+  font-family: 'Roboto Flex', system-ui, sans-serif !important;
+  font-weight: 400 !important;
 }

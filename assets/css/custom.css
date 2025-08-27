@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6,
   font-family: 'Oswald', Arial, Helvetica, sans-serif !important;
 }
 
-/* Meta & UI = Inter */
+/* Meta & UI = Roboto Flex */
 .nav, .navbar, .badge, .btn, .meta, .post-meta, .pagination {
-  font-family: 'Inter', system-ui, sans-serif !important;
+  font-family: 'Roboto Flex', system-ui, sans-serif !important;
 }

@@ -58,3 +58,9 @@ time,
 @media (max-width: 1199.98px) {
   #sidebar-left { display: none !important; }
 }
+/* Obere Navigation auf Desktop ausblenden */
+@media (min-width: 1200px) {
+  #MagicMenu {
+    display: none !important;
+  }
+}

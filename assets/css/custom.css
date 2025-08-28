@@ -81,7 +81,7 @@ time,
 }
 
 .logo-text { 
-  font-family: "Versailles", serif; 
+  font-family: "Versailles", sans-serif; 
   font-size: 22px;             /* leicht größer für Proportionen */
   font-weight: normal; 
   letter-spacing: 3px;         /* mehr Weite, eleganter Look */

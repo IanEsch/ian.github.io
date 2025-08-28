@@ -33,34 +33,30 @@ time,
   font-weight: 400 !important;
 }
 
-/* Linke Sidebar fixieren + Content einrücken (nur Desktop) */
+/* Desktop: Sidebar links, Top-Navi aus, Inhalt bleibt zentriert */
 @media (min-width: 1200px) {
+  #MagicMenu { display: none !important; }   /* obere Navi aus */
+
   #sidebar-left {
     position: fixed;
-    left: 0;
-    top: 70px;          /* Abstand zur Top-Nav (schätzen: 60–70px) */
-    bottom: 0;
-    width: 240px;       /* Sidebar-Breite */
+    left: 0; top: 0; bottom: 0;              /* ganz oben starten */
+    width: 240px;
     padding: 16px 16px 24px;
-    background: #fff;   /* den grauen Test-Hintergrund kannst du lassen/entfernen */
+    background: #fff;
     border-right: 1px solid rgba(0,0,0,0.06);
     overflow-y: auto;
     z-index: 1000;
   }
 
-  /* Hauptinhalt bekommt Platz rechts daneben */
-  .container {
-    margin-left: 240px !important;
-  }
+  /* WICHTIG: so rückt der gesamte Inhalt nach rechts,
+     ohne die Zentrierung der .container zu zerstören */
+  body { padding-left: 240px; }
 }
 
-/* Auf Tablets/Phones Sidebar ausblenden (Top-Nav bleibt) */
+/* Tablet/Phone: Sidebar aus, Top-Navi bleibt an */
 @media (max-width: 1199.98px) {
   #sidebar-left { display: none !important; }
+  body { padding-left: 0; }
 }
-/* Obere Navigation auf Desktop ausblenden */
-@media (min-width: 1200px) {
-  #MagicMenu {
-    display: none !important;
   }
 }

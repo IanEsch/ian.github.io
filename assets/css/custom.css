@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Versailles";
+  src: url("{{site.baseurl}}/assets/fonts/Versailles.woff2") format("woff2");
+  font-display: swap;
+}
+
 /* Body-Text = Didact Gothic */
 body {
   font-family: 'Didact Gothic', system-ui, sans-serif !important;

@@ -64,5 +64,26 @@ time,
   #sidebar-left { display: none !important; }
   body { padding-left: 0; }
 }
-  }
+
+/* Branding in der Sidebar */
+.sidebar-brand { 
+  display: flex; 
+  align-items: center;         /* Logo & Text schön auf einer Linie */
+  gap: 12px;                   /* mehr Luft zwischen Symbol und Text */
+  margin-bottom: 28px;         /* Abstand zum Menü */
+  padding-left: 4px;           /* minimal nach innen, wirkt ruhiger */
+}
+
+.sidebar-logo { 
+  width: 36px;                 /* etwas größer als 28px → wirkt präsenter */
+  height: auto; 
+  flex-shrink: 0;              /* bleibt fix, wird nicht gedrückt */
+}
+
+.logo-text { 
+  font-family: "Versailles", serif; 
+  font-size: 22px;             /* leicht größer für Proportionen */
+  font-weight: normal; 
+  letter-spacing: 3px;         /* mehr Weite, eleganter Look */
+  line-height: 1;              /* bündig mit Logo */
 }

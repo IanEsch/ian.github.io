@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The 17 sustainable development goals"
+title:  "17 reasons to change the world"
 author: jane
 categories: [ Jekyll, tutorial ]
 image: assets/images/SDG.jpg

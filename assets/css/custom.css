@@ -91,3 +91,11 @@ time,
   letter-spacing: 3px;         /* mehr Weite, eleganter Look */
   line-height: 1;              /* bündig mit Logo */
 }
+/* Mobile/Tablet Navbar Logo */
+.navbar-logo {
+  height: 40px;              /* anpassen, bis es optisch gleich hoch ist wie das Burger-Menü */
+  width: auto;
+  display: inline-block;
+  margin-top: -4px;          /* Feintuning nach oben/unten */
+  margin-bottom: -4px;       /* Feintuning nach oben/unten */
+}

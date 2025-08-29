@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Powerful things you can do with the Markdown editor"
+title:  "The importance of using sustainable resources in architecture"
 author: sal
 categories: [ Jekyll, tutorial ]
 image: assets/images/4.jpg

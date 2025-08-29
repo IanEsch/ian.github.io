@@ -76,12 +76,12 @@ time,
   padding-left: 4px;           /* minimal nach innen, wirkt ruhiger */
 }
 
-.sidebar-logo { 
-  width: 120px;   /* probier mal 100–140px, je nach Look */
-  height: auto; 
-  flex-shrink: 0; 
-  display: block; 
-  margin: 0 auto 20px;  /* zentriert es schön und gibt Abstand nach unten */
+.sidebar-logo {
+  width: 100%;       /* nimmt die ganze Breite der Sidebar */
+  max-width: 220px;  /* zur Sicherheit, falls Sidebar 240px ist, bisschen Puffer */
+  height: auto;      /* Höhe bleibt proportional */
+  display: block;
+  margin: 0 auto 24px; /* zentriert + Abstand nach unten */
 }
 
 .logo-text { 

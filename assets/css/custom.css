@@ -77,9 +77,11 @@ time,
 }
 
 .sidebar-logo { 
-  width: 36px;                 /* etwas größer als 28px → wirkt präsenter */
+  width: 120px;   /* probier mal 100–140px, je nach Look */
   height: auto; 
-  flex-shrink: 0;              /* bleibt fix, wird nicht gedrückt */
+  flex-shrink: 0; 
+  display: block; 
+  margin: 0 auto 20px;  /* zentriert es schön und gibt Abstand nach unten */
 }
 
 .logo-text { 

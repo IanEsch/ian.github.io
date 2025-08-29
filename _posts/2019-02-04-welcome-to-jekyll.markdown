@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "From ideas to impact. Shaping what’s ahead.
+title:  "From ideas to impact. Shaping what’s ahead."
 categories: [ Jekyll ]
 image: assets/images/GreenLanding.jpg
 ---
